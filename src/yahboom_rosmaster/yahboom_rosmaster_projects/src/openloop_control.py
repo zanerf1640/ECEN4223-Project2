@@ -40,13 +40,13 @@ class OpenLoopSquare(Node):
         # -----------------------------
         # TODO: Tune these values
         # -----------------------------
-        self.side_length_m =              # meters (length of one side)
-        self.linear_speed_mps =           # m/s
-        self.cycles_total =               # number of full squares
-        self.pause_s =                    # short stop between legs (optional)
+        self.side_length_m = 3             # meters (length of one side)
+        self.linear_speed_mps = 1          # m/s
+        self.cycles_total = 3              # number of full squares
+        self.pause_s = 0                   # short stop between legs (optional)
 
         # TODO: Time to travel one side (distance / speed)
-        self.leg_time_s = 
+        self.leg_time_s = self.side_length_m / self.linear_speed_mps
 
         # Publisher (controller expects TwistStamped)
         self.pub = self.create_publisher(
@@ -69,9 +69,13 @@ class OpenLoopSquare(Node):
         # Hint: use +v forward, +v left, -v back, -v right.
         self.legs = [
                # forward
+                (v, 0),
                # left
+                (0, v),
                # backward
+                (-v, 0),
                # right
+                (0, -v)
         ]
 
         # Timer loop (20 Hz is enough for smooth commands)
@@ -118,6 +122,11 @@ class OpenLoopSquare(Node):
         # - increment self.leg_index
         # - reset self.phase_start = now
         # - if pause_s > 0, set self.in_pause = True
+        if elapsed >= self.leg_time_s:
+            self.leg_index += 1
+            self.phase_start = now
+            if self.pause_s > 0:
+                self.in_pause = True
 
 def main():
     rclpy.init()
