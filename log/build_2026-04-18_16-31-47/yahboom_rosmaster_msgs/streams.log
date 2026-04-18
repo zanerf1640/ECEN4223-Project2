@@ -1,0 +1,244 @@
+[0.024s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs
+[0.271s] -- The C compiler identification is GNU 13.3.0
+[1.052s] -- The CXX compiler identification is GNU 13.3.0
+[1.689s] -- Detecting C compiler ABI info
+[1.912s] -- Detecting C compiler ABI info - done
+[1.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.917s] -- Detecting C compile features
+[1.917s] -- Detecting C compile features - done
+[1.993s] -- Detecting CXX compiler ABI info
+[2.218s] -- Detecting CXX compiler ABI info - done
+[2.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.223s] -- Detecting CXX compile features
+[2.224s] -- Detecting CXX compile features - done
+[2.226s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.315s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.376s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.545s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.910s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.442s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.514s] -- Found PythonExtra: /usr/bin/python3  
+[3.810s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.852s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.854s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.870s] -- Added test 'lint_cmake' to check CMake code style
+[3.870s] -- Added test 'xmllint' to check XML markup files
+[3.873s] -- Configuring done (3.8s)
+[3.905s] -- Generating done (0.0s)
+[3.913s] -- Build files have been written to: /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs
+[3.923s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs
+[3.924s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs -- -j16 -l16
+[3.963s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.963s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.971s] [  4%] Built target ament_cmake_python_symlink_yahboom_rosmaster_msgs
+[4.142s] running egg_info
+[4.143s] creating yahboom_rosmaster_msgs.egg-info
+[4.153s] writing yahboom_rosmaster_msgs.egg-info/PKG-INFO
+[4.154s] writing dependency_links to yahboom_rosmaster_msgs.egg-info/dependency_links.txt
+[4.154s] writing top-level names to yahboom_rosmaster_msgs.egg-info/top_level.txt
+[4.154s] writing manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[4.157s] [  4%] Built target yahboom_rosmaster_msgs__rosidl_generator_type_description
+[4.165s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.173s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.188s] reading manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[4.188s] writing manifest file 'yahboom_rosmaster_msgs.egg-info/SOURCES.txt'
+[4.189s] [  8%] Built target yahboom_rosmaster_msgs__rs
+[4.213s] [  8%] Built target ament_cmake_python_build_yahboom_rosmaster_msgs_egg
+[4.464s] [  8%] Built target yahboom_rosmaster_msgs__cpp
+[4.482s] [ 11%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.c.o[0m
+[4.482s] [ 15%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__description.c.o[0m
+[4.482s] [ 17%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__functions.c.o[0m
+[4.482s] [ 17%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.c.o[0m
+[4.482s] [ 20%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__functions.c.o[0m
+[4.483s] [ 22%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__description.c.o[0m
+[4.574s] [ 24%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_generator_c.so[0m
+[4.702s] [ 24%] Built target yahboom_rosmaster_msgs__rosidl_generator_c
+[4.709s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.709s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.710s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.710s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.710s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.711s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.978s] [ 44%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboom_rosmaster_msgs/action/timed_rotation__type_support.cpp.o[0m
+[4.978s] [ 44%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboom_rosmaster_msgs/action/timed_rotation__type_support.cpp.o[0m
+[4.978s] [ 44%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yahboom_rosmaster_msgs/srv/set_cleaning_state__type_support.cpp.o[0m
+[4.978s] [ 46%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yahboom_rosmaster_msgs/srv/set_cleaning_state__type_support.cpp.o[0m
+[5.025s] [ 48%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_c.so[0m
+[5.032s] [ 51%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.cpp.o[0m
+[5.032s] [ 53%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.cpp.o[0m
+[5.041s] [ 57%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.c.o[0m
+[5.041s] [ 57%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.c.o[0m
+[5.094s] [ 60%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.102s] [ 62%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboom_rosmaster_msgs/srv/detail/dds_fastrtps/set_cleaning_state__type_support.cpp.o[0m
+[5.103s] [ 64%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yahboom_rosmaster_msgs/action/detail/dds_fastrtps/timed_rotation__type_support.cpp.o[0m
+[5.167s] [ 68%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support_c.cpp.o[0m
+[5.167s] [ 68%] [32mBuilding CXX object CMakeFiles/yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support_c.cpp.o[0m
+[5.184s] [ 68%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_c
+[5.227s] [ 68%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_introspection_c
+[5.476s] [ 71%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_cpp.so[0m
+[5.567s] [ 73%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.583s] [ 75%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.625s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_cpp
+[5.724s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp
+[5.727s] [ 75%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c
+[5.740s] [ 77%] [32m[1mLinking CXX shared library libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.884s] [ 77%] Built target yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp
+[5.896s] [ 77%] Built target yahboom_rosmaster_msgs
+[5.907s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.354s] [ 80%] Built target yahboom_rosmaster_msgs__py
+[6.364s] [ 84%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboom_rosmaster_msgs/srv/_set_cleaning_state_s.c.o[0m
+[6.364s] [ 84%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/yahboom_rosmaster_msgs/action/_timed_rotation_s.c.o[0m
+[6.502s] [ 86%] [32m[1mLinking C shared library libyahboom_rosmaster_msgs__rosidl_generator_py.so[0m
+[6.618s] [ 86%] Built target yahboom_rosmaster_msgs__rosidl_generator_py
+[6.630s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.630s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.630s] [ 93%] [32mBuilding C object CMakeFiles/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.700s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.700s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.so[0m
+[6.701s] [100%] [32m[1mLinking C shared module rosidl_generator_py/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.786s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_c
+[6.786s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c
+[6.820s] [100%] Built target yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c
+[6.827s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs -- -j16 -l16
+[6.828s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs
+[6.834s] -- Install configuration: ""
+[6.835s] -- Execute custom install script
+[6.836s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboom_rosmaster_msgs
+[6.841s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/action/TimedRotation.json
+[6.846s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/srv/SetCleaningState.json
+[6.851s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__functions.h
+[6.855s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__struct.h
+[6.860s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.h
+[6.864s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/timed_rotation.h
+[6.869s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.873s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__functions.h
+[6.878s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__struct.h
+[6.882s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.h
+[6.887s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/set_cleaning_state.h
+[6.891s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/library_path.sh
+[6.896s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/library_path.dsv
+[6.901s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__rosidl_typesupport_fastrtps_c.h
+[6.905s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.909s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__rosidl_typesupport_fastrtps_c.h
+[6.914s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__rosidl_typesupport_introspection_c.h
+[6.918s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.923s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__rosidl_typesupport_introspection_c.h
+[6.927s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__builder.hpp
+[6.932s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__struct.hpp
+[6.936s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__traits.hpp
+[6.940s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__type_support.hpp
+[6.945s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/timed_rotation.hpp
+[6.949s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.954s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__builder.hpp
+[6.958s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__struct.hpp
+[6.964s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__traits.hpp
+[6.968s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__type_support.hpp
+[6.972s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/set_cleaning_state.hpp
+[6.977s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__rosidl_typesupport_fastrtps_cpp.hpp
+[6.981s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.986s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.990s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/action/detail/timed_rotation__rosidl_typesupport_introspection_cpp.hpp
+[6.994s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/include/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs/srv/detail/set_cleaning_state__rosidl_typesupport_introspection_cpp.hpp
+[6.999s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/pythonpath.sh
+[7.003s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/pythonpath.dsv
+[7.008s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[7.012s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.016s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.020s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[7.025s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/__init__.py
+[7.029s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_c.c
+[7.034s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.038s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/_yahboom_rosmaster_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.042s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action/__init__.py
+[7.046s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action/_timed_rotation.py
+[7.050s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action/_timed_rotation_s.c
+[7.054s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv/__init__.py
+[7.058s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv/_set_cleaning_state.py
+[7.062s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv/_set_cleaning_state_s.c
+[7.067s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.so
+[7.071s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.075s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.so
+[7.079s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.079s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_introspection_c.so
+[7.080s] -- Up-to-date symlink: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/yahboom_rosmaster_msgs_s__rosidl_typesupport_c.so
+[7.080s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/ament_index/resource_index/rust_packages/yahboom_rosmaster_msgs
+[7.084s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/Cargo.toml
+[7.089s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/build.rs
+[7.093s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/src/action.rs
+[7.097s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/src/action/rmw.rs
+[7.102s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/src/lib.rs
+[7.106s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/src/srv.rs
+[7.110s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/rust/src/srv/rmw.rs
+[7.114s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/action/TimedRotation.idl
+[7.118s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/srv/SetCleaningState.idl
+[7.123s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/action/TimedRotation.action
+[7.128s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/srv/SetCleaningState.srv
+[7.133s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_msgs
+[7.137s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_msgs
+[7.142s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/ament_prefix_path.sh
+[7.146s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/ament_prefix_path.dsv
+[7.151s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/path.sh
+[7.155s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/environment/path.dsv
+[7.159s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/local_setup.bash
+[7.163s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/local_setup.sh
+[7.167s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/local_setup.zsh
+[7.172s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/local_setup.dsv
+[7.176s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/package.dsv
+[7.181s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/ament_index/resource_index/packages/yahboom_rosmaster_msgs
+[7.186s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/rosidl_cmake-extras.cmake
+[7.190s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.194s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.198s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.202s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.207s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.210s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.214s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgsConfig.cmake
+[7.220s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgsConfig-version.cmake
+[7.225s] -- Symlinking: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/package.xml
+[7.231s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_generator_c.so
+[7.232s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_generator_c.so" to ""
+[7.232s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.so
+[7.232s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.232s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.so
+[7.232s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.233s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_c.so
+[7.233s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_c.so" to ""
+[7.233s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.233s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.233s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.so
+[7.234s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.234s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_cpp.so
+[7.234s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_typesupport_cpp.so" to ""
+[7.265s] Listing '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs'...
+[7.265s] Compiling '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/__init__.py'...
+[7.265s] Listing '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action'...
+[7.265s] Compiling '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action/__init__.py'...
+[7.265s] Compiling '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/action/_timed_rotation.py'...
+[7.265s] Listing '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv'...
+[7.265s] Compiling '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv/__init__.py'...
+[7.265s] Compiling '/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/python3.12/site-packages/yahboom_rosmaster_msgs/srv/_set_cleaning_state.py'...
+[7.269s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_generator_py.so
+[7.269s] -- Set non-toolchain portion of runtime path of "/home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/lib/libyahboom_rosmaster_msgs__rosidl_generator_py.so" to ""
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_generator_cExport.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_cExport.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.270s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_generator_cppExport.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_cppExport.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/yahboom_rosmaster_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_generator_pyExport.cmake
+[7.271s] -- Installing: /home/zanef/ros2_ws/install/yahboom_rosmaster_msgs/share/yahboom_rosmaster_msgs/cmake/export_yahboom_rosmaster_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.273s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/zanef/ros2_ws/build/yahboom_rosmaster_msgs

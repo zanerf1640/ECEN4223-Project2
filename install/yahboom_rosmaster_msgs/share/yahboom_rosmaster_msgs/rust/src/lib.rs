@@ -1,0 +1,1 @@
+/home/zanef/ros2_ws/build/yahboom_rosmaster_msgs/rosidl_generator_rs/yahboom_rosmaster_msgs/rust/src/lib.rs
