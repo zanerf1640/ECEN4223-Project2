@@ -14,6 +14,8 @@
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/cmake/yahboom_rosmaster_projectsConfig-version.cmake
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/package.xml
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/launch/gz_home_like.launch.py
+/home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/launch/gz_slam.launch.py
+/home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/launch/gz_slam_nav2.launch.py
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/home_like.world
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/worlds/rosmaster_home.world
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/bookshelf/model-1_2.sdf
@@ -96,3 +98,4 @@
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/share/yahboom_rosmaster_projects/models/table/model.sdf:Zone.Identifier:Zone.Identifier
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/ground_truth_extractor.py
 /home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/openloop_control.py
+/home/zanef/ros2_ws/install/yahboom_rosmaster_projects/lib/yahboom_rosmaster_projects/ppa.py

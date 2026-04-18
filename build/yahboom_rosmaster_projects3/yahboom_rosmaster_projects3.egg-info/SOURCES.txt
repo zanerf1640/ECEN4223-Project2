@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/yahboom_rosmaster_projects3
+yahboom_rosmaster_projects3/__init__.py
+yahboom_rosmaster_projects3/ppa.py
+yahboom_rosmaster_projects3.egg-info/PKG-INFO
+yahboom_rosmaster_projects3.egg-info/SOURCES.txt
+yahboom_rosmaster_projects3.egg-info/dependency_links.txt
+yahboom_rosmaster_projects3.egg-info/requires.txt
+yahboom_rosmaster_projects3.egg-info/top_level.txt
+yahboom_rosmaster_projects3.egg-info/zip-safe

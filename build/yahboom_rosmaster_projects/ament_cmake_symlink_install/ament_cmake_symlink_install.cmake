@@ -360,5 +360,5 @@ ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yah
 # install(DIRECTORY "launch" "worlds" "models" "DESTINATION" "share/yahboom_rosmaster_projects")
 ament_cmake_symlink_install_directory("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects" DIRECTORY "launch" "worlds" "models" "DESTINATION" "share/yahboom_rosmaster_projects")
 
-# install(PROGRAMS "src/ground_truth_extractor.py" "src/openloop_control.py" "DESTINATION" "lib/yahboom_rosmaster_projects")
-ament_cmake_symlink_install_programs("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects" PROGRAMS "src/ground_truth_extractor.py" "src/openloop_control.py" "DESTINATION" "lib/yahboom_rosmaster_projects")
+# install(PROGRAMS "src/ground_truth_extractor.py" "src/openloop_control.py" "src/ppa.py" "DESTINATION" "lib/yahboom_rosmaster_projects")
+ament_cmake_symlink_install_programs("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects" PROGRAMS "src/ground_truth_extractor.py" "src/openloop_control.py" "src/ppa.py" "DESTINATION" "lib/yahboom_rosmaster_projects")

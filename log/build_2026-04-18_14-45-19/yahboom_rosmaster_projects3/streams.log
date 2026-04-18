@@ -1,0 +1,15 @@
+[1.647s] Invoking command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects3': PYTHONPATH=/home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/build --no-deps symlink_data
+[2.133s] running develop
+[2.361s] running egg_info
+[2.390s] writing yahboom_rosmaster_projects3.egg-info/PKG-INFO
+[2.391s] writing dependency_links to yahboom_rosmaster_projects3.egg-info/dependency_links.txt
+[2.392s] writing requirements to yahboom_rosmaster_projects3.egg-info/requires.txt
+[2.392s] writing top-level names to yahboom_rosmaster_projects3.egg-info/top_level.txt
+[2.444s] reading manifest file 'yahboom_rosmaster_projects3.egg-info/SOURCES.txt'
+[2.445s] writing manifest file 'yahboom_rosmaster_projects3.egg-info/SOURCES.txt'
+[2.468s] running build_ext
+[2.469s] Creating /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/lib/python3.12/site-packages/yahboom-rosmaster-projects3.egg-link (link to .)
+[2.470s] 
+[2.470s] Installed /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3
+[2.470s] running symlink_data
+[2.526s] Invoked command in '/home/zanef/ros2_ws/build/yahboom_rosmaster_projects3' returned '0': PYTHONPATH=/home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/build --no-deps symlink_data

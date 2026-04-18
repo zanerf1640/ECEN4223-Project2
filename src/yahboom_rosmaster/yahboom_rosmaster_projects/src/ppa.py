@@ -69,9 +69,9 @@ class HolonomicPurePursuit(Node):
         # Square path
         self.waypoints: List[Tuple[float, float]] = [
             (1.0, 0.0),
-            (4.0, 0.0),
-            (4.0, 3.0),
-            (1.0, 3.0),
+            (2.0, 0.0),
+            (2.0, 1.0),
+            (0.0, 1.0),
             (1.0, 0.0),
         ]
 

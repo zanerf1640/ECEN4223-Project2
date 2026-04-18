@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating yahboom_rosmaster_projects3.egg-info
+writing yahboom_rosmaster_projects3.egg-info/PKG-INFO
+writing dependency_links to yahboom_rosmaster_projects3.egg-info/dependency_links.txt
+writing requirements to yahboom_rosmaster_projects3.egg-info/requires.txt
+writing top-level names to yahboom_rosmaster_projects3.egg-info/top_level.txt
+writing manifest file 'yahboom_rosmaster_projects3.egg-info/SOURCES.txt'
+reading manifest file 'yahboom_rosmaster_projects3.egg-info/SOURCES.txt'
+writing manifest file 'yahboom_rosmaster_projects3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/lib/python3.12/site-packages/yahboom-rosmaster-projects3.egg-link (link to .)
+
+Installed /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3
+running symlink_data
+creating /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/share/ament_index
+creating /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/share/ament_index/resource_index
+creating /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/share/ament_index/resource_index/packages
+symbolically linking /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/resource/yahboom_rosmaster_projects3 -> /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/share/ament_index/resource_index/packages
+symbolically linking /home/zanef/ros2_ws/build/yahboom_rosmaster_projects3/package.xml -> /home/zanef/ros2_ws/install/yahboom_rosmaster_projects3/share/yahboom_rosmaster_projects3
