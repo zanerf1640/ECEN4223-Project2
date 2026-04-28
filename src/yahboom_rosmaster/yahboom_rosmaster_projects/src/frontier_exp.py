@@ -67,7 +67,7 @@ class FrontierExplorer(Node):
         self.declare_parameter("base_frame", "base_link")
 
         # Core algorithm knobs
-        self.declare_parameter("min_frontier_cluster_size", 30)
+        self.declare_parameter("min_frontier_cluster_size", 5)
         self.declare_parameter("frontier_connectivity", 8)   # 4 or 8
         self.declare_parameter("unknown_value", -1)
         self.declare_parameter("free_value_max", 10)          # treat <= this as free

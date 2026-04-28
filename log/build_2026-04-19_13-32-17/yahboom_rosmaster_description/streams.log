@@ -1,0 +1,70 @@
+[0.017s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zane-francis/ros2_ws/install/yahboom_rosmaster_description
+[0.117s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.155s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.245s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.369s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.396s] -- Found urdf_tutorial: 1.1.0 (/opt/ros/jazzy/share/urdf_tutorial/cmake)
+[0.398s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.450s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.450s] -- Added test 'lint_cmake' to check CMake code style
+[0.450s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.451s] -- Added test 'xmllint' to check XML markup files
+[0.452s] -- Configuring done (0.4s)
+[0.453s] -- Generating done (0.0s)
+[0.454s] -- Build files have been written to: /home/zane-francis/ros2_ws/build/yahboom_rosmaster_description
+[0.456s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zane-francis/ros2_ws/install/yahboom_rosmaster_description
+[0.457s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zane-francis/ros2_ws/build/yahboom_rosmaster_description -- -j16 -l16
+[0.471s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zane-francis/ros2_ws/build/yahboom_rosmaster_description -- -j16 -l16
+[0.472s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zane-francis/ros2_ws/build/yahboom_rosmaster_description
+[0.474s] -- Install configuration: ""
+[0.474s] -- Execute custom install script
+[0.475s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers.yaml
+[0.478s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers_template.yaml
+[0.481s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/launch/robot_state_publisher.launch.py
+[0.484s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/intel_realsense/visual/d435.stl
+[0.487s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_left_wheel_X3.STL
+[0.491s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_right_wheel_X3.STL
+[0.494s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/base_link_X3.STL
+[0.497s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/camera_link.STL
+[0.500s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_left_wheel_X3.STL
+[0.503s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_right_wheel_X3.STL
+[0.507s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/laser_link.STL
+[0.510s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rplidar/rplidar_s2.stl
+[0.514s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[0.517s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/rosmaster_x3_ros2_control.urdf.xacro
+[0.520s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/velocity_control_plugin.urdf.xacro
+[0.525s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/mecanum_wheel.urdf.xacro
+[0.528s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/rosmaster_x3_base.urdf.xacro
+[0.532s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/robots/rosmaster_x3.urdf.xacro
+[0.535s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/imu.urdf.xacro
+[0.539s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/lidar.urdf.xacro
+[0.543s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/rgbd_camera.urdf.xacro
+[0.546s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/rviz/yahboom_rosmaster_description.rviz
+[0.551s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_description
+[0.554s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_description
+[0.558s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.sh
+[0.561s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.dsv
+[0.565s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.sh
+[0.568s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.dsv
+[0.571s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.bash
+[0.574s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.sh
+[0.578s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.zsh
+[0.581s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.dsv
+[0.584s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.dsv
+[0.588s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/packages/yahboom_rosmaster_description
+[0.592s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig.cmake
+[0.595s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig-version.cmake
+[0.599s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.xml
+[0.603s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zane-francis/ros2_ws/build/yahboom_rosmaster_description

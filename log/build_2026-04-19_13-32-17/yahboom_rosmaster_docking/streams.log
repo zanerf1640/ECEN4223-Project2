@@ -1,0 +1,78 @@
+[0.015s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_docking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking
+[0.115s] -- The C compiler identification is GNU 13.3.0
+[0.145s] -- The CXX compiler identification is GNU 13.3.0
+[0.153s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.375s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.395s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.419s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.502s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.504s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.555s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.607s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.608s] -- Found apriltag_ros: 3.3.0 (/opt/ros/jazzy/share/apriltag_ros/cmake)
+[0.609s] -- Found apriltag_msgs: 2.0.1 (/opt/ros/jazzy/share/apriltag_msgs/cmake)
+[0.618s] -- Found image_proc: 5.0.11 (/opt/ros/jazzy/share/image_proc/cmake)
+[0.636s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.702s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.702s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.702s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.756s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.812s] -- Configured cppcheck include dirs: 
+[0.812s] -- Configured cppcheck exclude dirs and/or files: 
+[0.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.812s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.813s] -- Added test 'lint_cmake' to check CMake code style
+[0.813s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.813s] -- Added test 'uncrustify' to check C / C++ code style
+[0.813s] -- Configured uncrustify additional arguments: 
+[0.814s] -- Added test 'xmllint' to check XML markup files
+[0.814s] -- Configuring done (0.8s)
+[0.820s] -- Generating done (0.0s)
+[0.822s] -- Build files have been written to: /home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking
+[0.829s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_docking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking
+[0.830s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking -- -j16 -l16
+[0.849s] [ 50%] [32mBuilding CXX object CMakeFiles/detected_dock_pose_publisher.dir/src/detected_dock_pose_publisher.cpp.o[0m
+[3.787s] [100%] [32m[1mLinking CXX executable detected_dock_pose_publisher[0m
+[3.878s] [100%] Built target detected_dock_pose_publisher
+[3.882s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking -- -j16 -l16
+[3.883s] Invoking command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking
+[3.886s] -- Install configuration: ""
+[3.886s] -- Execute custom install script
+[3.886s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/lib/yahboom_rosmaster_docking/detected_dock_pose_publisher
+[3.889s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/apriltags_36h11.yaml
+[3.892s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/config/dock_database.yaml
+[3.896s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/launch/apriltag_dock_pose_publisher.launch.py
+[3.899s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_docking
+[3.902s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_docking
+[3.905s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.sh
+[3.908s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/ament_prefix_path.dsv
+[3.910s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.sh
+[3.913s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/environment/path.dsv
+[3.916s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.bash
+[3.919s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.sh
+[3.922s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.zsh
+[3.926s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/local_setup.dsv
+[3.929s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.dsv
+[3.932s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/ament_index/resource_index/packages/yahboom_rosmaster_docking
+[3.935s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig.cmake
+[3.938s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/cmake/yahboom_rosmaster_dockingConfig-version.cmake
+[3.941s] -- Symlinking: /home/zane-francis/ros2_ws/install/yahboom_rosmaster_docking/share/yahboom_rosmaster_docking/package.xml
+[3.945s] Invoked command in '/home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zane-francis/ros2_ws/build/yahboom_rosmaster_docking

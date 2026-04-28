@@ -1,8 +1,8 @@
-# Install script for directory: /home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects
+# Install script for directory: /home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zanef/ros2_ws/install/yahboom_rosmaster_projects")
+  set(CMAKE_INSTALL_PREFIX "/home/zane-francis/ros2_ws/install/yahboom_rosmaster_projects")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/zanef/ros2_ws/build/yahboom_rosmaster_projects/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/zane-francis/ros2_ws/build/yahboom_rosmaster_projects/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zanef/ros2_ws/build/yahboom_rosmaster_projects/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_projects/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

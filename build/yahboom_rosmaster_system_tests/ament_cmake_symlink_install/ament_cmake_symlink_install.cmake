@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/zane-francis/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/zane-francis/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/zane-francis/ros2_ws/install/yahboom_rosmaster_system_tests/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/zanef/ros2_ws/install/yahboom_rosmaster_system_tests/${destination}")
+      set(destination "/home/zane-francis/ros2_ws/install/yahboom_rosmaster_system_tests/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,49 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_directory("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" DIRECTORY "config" "launch" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_directory("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" DIRECTORY "config" "launch" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
 # install("TARGETS" "square_mecanum_controller" "mecanum_parameters_node" "timed_rotation_action_server" "timed_rotation_action_client" "set_cleaning_state_service" "DESTINATION" "lib/yahboom_rosmaster_system_tests")
-include("/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests/environment")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yahboom_rosmaster_system_tests")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_index/share/ament_index/resource_index/packages/yahboom_rosmaster_system_tests" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig.cmake" "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_system_tests/cmake")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig.cmake" "/home/zanef/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_system_tests/cmake")
+# install(FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig.cmake" "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_system_tests/cmake")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig.cmake" "/home/zane-francis/ros2_ws/build/yahboom_rosmaster_system_tests/ament_cmake_core/yahboom_rosmaster_system_testsConfig-version.cmake" "DESTINATION" "share/yahboom_rosmaster_system_tests/cmake")
 
-# install(FILES "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests/package.xml" "DESTINATION" "share/yahboom_rosmaster_system_tests")
-ament_cmake_symlink_install_files("/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zanef/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests/package.xml" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+# install(FILES "/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests/package.xml" "DESTINATION" "share/yahboom_rosmaster_system_tests")
+ament_cmake_symlink_install_files("/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests" FILES "/home/zane-francis/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests/package.xml" "DESTINATION" "share/yahboom_rosmaster_system_tests")
